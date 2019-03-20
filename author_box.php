@@ -4,7 +4,7 @@
 <title>Author Box</title>
 </head>
 <body>
-
+<!-- copy the following code to the location you want this in your site-->
 <div id="author-wrap">
 				<div class="media-figure">
 					<?php echo get_avatar( get_the_author_meta('email'), '400' ); ?>
@@ -37,3 +37,5 @@
 					</div>
 				</div>
 			</div>
+</body>
+</html>
